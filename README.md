@@ -22,6 +22,12 @@ The architectures of the two models are similar. The first part is composed by c
 
 ### Training process
 
+We trained the model with 20 epochs and we used as loss function the MSE because it is used for regression problems. The mean squared error measures the average squared difference between actual values and predictions. For minimizing this loss function we used an optimization algorithm named SGD (stochastic gradient descent).
+Furthermore, we applied learning rate of 0.0001 on the first model and 0.001 for the second one.
+
+### Training loss
+
+
 
 
 
