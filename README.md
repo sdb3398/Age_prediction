@@ -27,6 +27,21 @@ Furthermore, we applied learning rate of 0.0001 on the first model and 0.001 for
 
 ### Training loss
 
+We made two graphs representing the two loss function and we noted that both decrease during the epochs but the values are still high. This suggested us that the results are very poor in making prediction.
+
+### Errors 
+
+We constructed the two graphs reguarding errors. We saw that the errors' variances are very high and the distributions of the two histograms are similar to the uniform. This is a big issue that we didn't solve.
+
+### Final comments
+
+We infered that these poor results depend on these things:
+
+- we reduced the dimensions of the classes losing some informations
+- some input images are in a very low quality (also in the transformations that we performed)
+- maybe the problems requires a more sophisticated architecture and a higher computing capacity that we don't have
+- Our approach involved adapting the architecture of the AlexNet model, known for its strength in classification tasks, to regression
+- Both models consistently produced identical predictions for diverse input images, posing a significant challenge and suggesting potential issues in training or architectural design
 
 
 
