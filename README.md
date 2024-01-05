@@ -1,7 +1,28 @@
 # Age_prediction
 This is a project that I conducted with Paolo Mantovani, colleague from the MSc in Data Analytics for Business.
 
-# Description of the dataset
+## Description of the dataset
 
-We used an image dataset composed by portrait photographs of people between 20 and 50 years old. [Age Prrediciton dataset](https://www.kaggle.com/datasets/mariafrenti/age-prediction)
+We used an image dataset composed by portrait photographs of people between 20 and 50 years old [Age Prediciton dataset](https://www.kaggle.com/datasets/mariafrenti/age-prediction).
+For computational reasons we decided to reduce the class dimensions taking 300 images for each class in the training set and 100 images for each class in the test set. So, at the end, we have 9300 images in the training set and 3100 in the test set.
+
+Every image has the following characteristics: 128x128 pixels and RGB format.
+
+The goal of our project is to make age prediction using regression model based on concolutional neural network, so we created two different models.
+
+## Models
+
+### Weights
+
+In both models we used the same type of weights: Xavier uniform for the convolutional layers, batch normalization layers and normal initialization in the fully connected part.
+
+### Architectures
+
+The architectures of the two models are similar. The first part is composed by convolutional layers with kernel size, stride and padding. In this part we used ReLu as activation function, batch normalization and max pooling. Then, there is a part in which we have fully connected layers where we add also dropout layers. We also added a spatial reduction using adaptive average pooling. In the last fully connected layer we used as output a single value because we want to make linear regression instead of classification. Moreover, we used the sigmoid function at the end. This allows us to represent the final result in a range between 0 and 1.
+
+### Training process
+
+
+
+
 
