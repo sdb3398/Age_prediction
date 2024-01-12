@@ -7,7 +7,7 @@ For computational reasons we decided to reduce the class dimensions taking 300 i
 
 Every image has the following characteristics: 128x128 pixels and RGB format.
 
-The goal of our project is to make age prediction using regression model based on concolutional neural network, so we created two different models.
+The goal of our project is to make age prediction using regression model based on convolutional neural network, so we created two different models.
 
 ## Models
 
